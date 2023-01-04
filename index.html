@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <script type="text/javascript" src="./app.js" defer></script>
+    <title>Weather</title>
+</head>
+<body>
+   
+        <nav data-navbar>
+            <ul>
+                <div class="location">
+                    <i class="fa-solid fa-location-dot"></i>
+                <li data-location>--</li>
+                </div>
+                <button onClick="startListening()">Speech Recognition</button>
+            </ul>
+        </nav>
+
+        <div class="results1">
+            <img src="./sunny.png" alt="icon" data-icon>
+            <h1 data-currenttemp class="current-temp">--</h1>
+            <h2 data-condition>--</h2>
+            <div class="min-max-temp">
+                <h3>Wind dir: <span data-winddir></span></h3>
+            </div>
+        </div>
+
+        <div class="results2">
+            <h4><i class="fa-solid fa-droplet"></i><span data-humidity>--</span></h4>
+            <h4><i class="fa-solid fa-temperature-three-quarters"></i><span data-feelslike>--</span></h4>
+            <h4><i class="fa-solid fa-wind"></i><span data-windspeed>--</span></h4>
+        </div>
+
+
+        </div>
+
+        <script src="https://kit.fontawesome.com/37b2f718fc.js" crossorigin="anonymous"></script>
+</body>
+</html>

@@ -1,0 +1,135 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    height: 100vh;
+    background: blue;
+    position: relative;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.day{
+    background: linear-gradient(167deg, rgba(31,255,239,1) 0%, rgba(31,52,205,1) 100%);
+}
+
+.night{
+    background: linear-gradient(160deg, rgb(3, 11, 54) 0%, rgb(43, 62, 209) 100%);
+}
+
+/**==== navbar ====*/
+
+nav{
+    /* border: 1px solid yellow;*/
+    margin-bottom: 50px;
+    width: 100%;
+    min-height: 60px;
+    background: transparent;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;   
+}
+
+button{
+    padding: 5px;
+    background: rgb(73, 134, 255);
+    color: white;
+    border-radius: 5px;
+    border: 1px solid white;
+}
+
+button:hover{
+    cursor: pointer;
+    background: rgb(104, 121, 246);
+}
+
+ul{
+    /* border: 1px solid red;*/
+    padding: 5px;
+    width: 90%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+}
+
+.location{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+li{
+    /* border: 1px solid orange;*/
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.fa-location-dot{
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.fa-chevron-down{
+    margin-left: 10px;
+}
+
+/**=========first results =========*/
+
+.results1{
+    /*border: 1px solid black;*/
+    text-align: center;
+    color: white;
+    height: 40vh;
+    display: flex;
+    flex-direction: column;
+    justify-content:space-around;
+    margin-bottom: 20px;
+}
+
+img{
+    width: 140px;
+    margin: 0 auto;
+}
+
+.current-temp{
+    font-size: 60px;
+}
+
+.min-max-temp{
+    display: flex;
+    justify-content: center;
+    margin-top: -30px;
+    padding: 30px;
+}
+
+h3{
+    margin-inline: 5px;
+}
+
+/**========= second results =========*/
+
+.results2{
+    background:  rgba(3, 11, 54, 0.5);
+    /*  border: 1px solid black;*/
+    color: white;
+    width: 85%;
+    padding: 15px;
+    border-radius: 20px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+}
+.results2 h4 > i {
+    margin-right: 10px;
+}
+
+
+
+
+
